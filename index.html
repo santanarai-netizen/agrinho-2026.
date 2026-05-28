@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026 - Agro Forte, Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="barra-acessibilidade" role="toolbar" aria-label="Ferramentas de Acessibilidade">
+        <button id="btn-contraste" title="Alternar Alto Contraste">◐ Alto Contraste</button>
+        <button id="btn-aumentar" title="Aumentar Fonte">A+</button>
+        <button id="btn-diminuir" title="Diminuir Fonte">A-</button>
+    </div>
+
+    <header>
+        <div class="container">
+            <h1>Agro Forte, Futuro Sustentável</h1>
+            <p>O equilíbrio essencial entre a produção e o meio ambiente</p>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <section class="card">
+            <h2>O Desafio do Século XXI</h2>
+            <p>Como alimentar uma população global em constante crescimento sem esgotar os recursos naturais do nosso planeta? A resposta está no <strong>equilíbrio</strong>. O Agro Forte não se baseia apenas em recordes de colheita, mas na capacidade de produzir em harmonia com a biodiversidade, protegendo o solo, a água e as nossas florestas.</p>
+            <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad451?auto=format&fit=crop&w=1200&q=80" alt="Plantação verde jovem brotando em solo bem cuidado com tecnologia de irrigação ao fundo" class="img-responsiva">
+        </section>
+
+        <section class="grid-2">
+            <div class="card">
+                <h3>🌲 Preservação e Biomas</h3>
+                <p>O produtor rural sustentável atua como um guardião da floresta. Através de áreas de Preservação Permanente (APPs) e Reservas Legais, o campo ajuda a manter o ciclo de chuvas, protege os polinizadores (como as abelhas) e combate as mudanças climáticas.</p>
+            </div>
+            <div class="card">
+                <h3>🚜 Tecnologia e Inovação</h3>
+                <p>A tecnologia é a maior aliada da ecologia. Tratores guiados por satélite, drones que monitoram a saúde das lavouras e sensores de umidade evitam o desperdício de água e reduzem a necessidade de defensivos químicos, gerando uma produção limpa e eficiente.</p>
+            </div>
+        </section>
+
+        <section class="card quiz-secao">
+            <h2>🧩 Espaço Interativo: Teste seus conhecimentos!</h2>
+            <p>O que define melhor a verdadeira sustentabilidade no agronegócio?</p>
+            
+            <form id="quiz-form">
+                <label class="opcao">
+                    <input type="radio" name="sustentavel" value="errado1">
+                    <span>Produzir o máximo possível sem se preocupar com o solo.</span>
+                </label>
+                <label class="opcao">
+                    <input type="radio" name="sustentavel" value="correto">
+                    <span>Unir alta produtividade tecnológica com a conservação das florestas e recursos hídricos.</span>
+                </label>
+                <label class="opcao">
+                    <input type="radio" name="sustentavel" value="errado2">
+                    <span>Parar totalmente a produção agrícola para focar apenas em florestas.</span>
+                </label>
+                
+                <button type="button" id="btn-quiz">Enviar Resposta</button>
+            </form>
+            <div id="resultado-quiz"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Projeto Agrinho 2026 — Desenvolvido por Aluno do 1º Ano do Ensino Médio.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
